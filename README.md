@@ -13,24 +13,24 @@
 
 ## 🧠 System Overview
 
-Production-grade semi-automated trading system integrating TradingView signals with Zerodha Kite API.
+Semi-automated trading system integrating TradingView signals with Zerodha Kite API, featuring adaptive strategy logic and structured risk management.
 
-TradingView → Webhook → Flask Bot → Strategy Engine → Kite API → Execution → Risk Engine → Exit
+TradingView → Webhook → Flask Bot → Rule-based strategy selection (Directional / Straddle) → Kite API → Execution → Risk Engine → Exit
 
 
 ---
 
 ## ⚡ Key Capabilities
 
-✔ Automated trade execution from TradingView  
+✔ rule-based automated  execution from TradingView  
 ✔ Volatility-based strategy switching  
 ✔ Smart capital allocation  
-✔ Real-time PnL tracking  
-✔ Advanced risk engine  
+✔ Live PnL tracking via Kite API 
+✔ Risk engine /structured risk management 
 ✔ Time-based trading filter  
 ✔ Order execution confirmation  
 ✔ Retry-safe API calls  
-✔ Full logging system  
+✔ Detailed logging for execution and debugging  
 
 ---
 
@@ -62,7 +62,7 @@ Exit (SL / Target / Time)
 
 ### 📈 TradingView Signals
 
-Below chart shows real BUY/SELL signals generated using Pine Script strategy:
+Below chart shows example BUY/SELL signals generated using Pine Script logic:
  Real-time signals generated using EMA + VWAP strategy
 
 <img width="940" height="488" alt="image" src="https://github.com/user-attachments/assets/7ed9ee9e-31c0-41ff-9779-301543b2706f" />
@@ -96,7 +96,7 @@ System logs every step:
 
 ---
 
-## 🧠 Strategy Engine
+## 🧠 Rule-based strategy selection (Directional / Straddle)
 
 ### 🎯 Strategies
 
@@ -107,7 +107,7 @@ System logs every step:
 
 ---
 
-## 🛑 Risk Management
+## 🛑 structured risk management
 
 ✔ Stop Loss  
 ✔ Target exit  
@@ -149,7 +149,7 @@ trading_bot/
 ### 🟢 bot.py
 Handles execution, strategy selection, and webhook processing
 
-### 🟢 Strategy Engine
+### 🟢 Rule-based strategy selection (Directional / Straddle)
 Switches between directional and straddle
 
 ### 🟢 Risk Manager
