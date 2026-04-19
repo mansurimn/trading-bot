@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Flask](https://img.shields.io/badge/Flask-API-green)
 ![Trading](https://img.shields.io/badge/Trading-Automation-orange)
-![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
+![Status](https://img.shields.io/badge/Status-Dev-Testing--Ready-brightgreen)
 
 ---
 
