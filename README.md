@@ -13,7 +13,7 @@
 
 ## 🧠 System Overview
 
-Semi-automated trading system integrating TradingView signals with Zerodha Kite API, featuring adaptive strategy logic and structured risk management.
+Semi-automated trading system integrating TradingView signals with Zerodha Kite API, featuring adaptive rule-based strategy logic, structured risk management, and automated order execution.
 
 TradingView → Webhook → Flask Bot → Rule-based strategy selection (Directional / Straddle) → Kite API → Execution → Risk Engine → Exit
 
