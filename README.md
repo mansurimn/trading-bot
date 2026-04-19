@@ -5,6 +5,10 @@
 ![Trading](https://img.shields.io/badge/Trading-Automation-orange)
 ![Status](https://img.shields.io/badge/Status-Testing--Ready-yellow)
 
+![Strategy](https://img.shields.io/badge/Strategy-Options%20Trading-purple)
+![Risk](https://img.shields.io/badge/Risk-Managed-success)
+![Execution](https://img.shields.io/badge/Execution-Automated-blueviolet)
+
 ---
 
 ## 🧠 System Overview
