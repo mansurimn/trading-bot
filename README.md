@@ -54,6 +54,41 @@ Start risk engine →
 Monitor PnL →
 Exit (SL / Target / Time)
 
+## 📸 Live System Screenshots
+
+### 📈 TradingView Signals
+
+Below chart shows real BUY/SELL signals generated using Pine Script strategy:
+ Real-time signals generated using EMA + VWAP strategy
+
+<img width="940" height="488" alt="image" src="https://github.com/user-attachments/assets/7ed9ee9e-31c0-41ff-9779-301543b2706f" />
+
+
+---
+
+### 🤖 Telegram Alerts
+
+Bot sends real-time alerts for:
+
+- Entry signals  
+- Order execution  
+- Stop loss / Target hit  
+- Errors / warnings  
+
+<img width="940" height="777" alt="image" src="https://github.com/user-attachments/assets/1efa515f-f642-4dc4-b6cd-a4cdb468a67f" />
+
+
+---
+
+### 📊 Logs (Execution Tracking)
+
+System logs every step:
+
+- Strategy selection  
+- Volatility values  
+- Order execution  
+- Risk triggers  
+
 
 ---
 
@@ -179,5 +214,19 @@ Test before live trading
 
 💡 Final Thought
 Execution + Risk Management + Discipline = Consistency
+
+---
+
+## ⚠️ Disclaimer
+
+This project is developed for **educational and research purposes only**.
+
+- It is **not financial advice**
+- Trading in financial markets involves **significant risk**
+- Past performance does **not guarantee future results**
+- The author is **not responsible for any financial losses**
+
+Use this system at your own risk.  
+Always test thoroughly in **simulation (DRY_RUN)** before live trading.
 
 ---
