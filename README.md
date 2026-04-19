@@ -165,30 +165,55 @@ Dual-leg execution + trailing SL
 ---
 
 ## 🔐 Configuration (.env)
+
+```env
+# =========================
+# 🔑 Kite Credentials
+# =========================
 KITE_API_KEY=xxx
 KITE_API_SECRET=xxx
 KITE_ACCESS_TOKEN=xxx
 
+# =========================
+# 📩 Telegram Alerts
+# =========================
 TOKEN=xxx
 CHAT_ID=xxx
 
+# =========================
+# 💰 Trading Configuration
+# =========================
 CAPITAL_PER_TRADE=10000
 ENTRY_DELAY=15
 STRATEGY_MODE=1
 
+# =========================
+# 🛑 Risk Management
+# =========================
 MAX_DAILY_LOSS=3000
 MAX_DAILY_PROFIT=3000
 
+# =========================
+# 🧠 Strategy Control
+# =========================
 AUTO_MODE=true
 VOL_THRESHOLD=20
 
+# =========================
+# ⏱ Trading Time Window
+# =========================
 OPEN_START=09:40
 OPEN_END=10:30
+
 MID_START=10:30
 MID_END=13:30
+
 CLOSE_START=13:30
 CLOSE_END=15:30
 
+# =========================
+# 🧪 Mode
+# =========================
 DRY_RUN=true
 
 
@@ -196,10 +221,11 @@ DRY_RUN=true
 
 ## ▶️ Run
 
-``bash
+```bash
 python kite_login.py
 python bot.py
 ngrok http 5000
+```
 
 📊 Logging
 
